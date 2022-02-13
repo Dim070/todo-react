@@ -1,0 +1,61 @@
+form {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text, .title {
+    width: 500px;
+    height: 40px;
+    background: cadetblue;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.title {
+    font-weight: bold;
+}
+
+.number {
+    width: 130px;
+    height: 40px;
+    background: cadetblue;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+input::placeholder {
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    background: greenyellow;
+    border-color: chartreuse;
+    box-shadow: 0 0 40px 40px chartreuse inset, 0 0 0 0 chartreuse;
+    transition: all 150ms ease-in-out;
+}
+.btn:hover {
+     box-shadow: 0 0 10px 0 chartreuse inset, 0 0 10px 4px chartreuse;
+ }
+
+.status {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
